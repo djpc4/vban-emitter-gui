@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=VBAN Emitter GUI
+Comment=Send this computer's sound over the network as VBAN streams
+Exec=vban-emitter-gui
+Icon=vban-emitter-gui
+Terminal=false
+Categories=AudioVideo;Audio;Network;
+StartupWMClass=vban-emitter-gui

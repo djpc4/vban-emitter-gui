@@ -1,0 +1,20 @@
+[package]
+name = "vban-emitter-gui"
+description = "VBAN Emitter GUI: a desktop front end for the Linux vban_emitter, sending VBAN streams with level meters and a user service"
+version = "0.1.0"
+edition = "2021"
+license = "BSD-2-Clause"
+readme = "README.md"
+keywords = ["vban", "audio", "pipewire", "pulseaudio", "voicemeeter"]
+categories = ["multimedia::audio"]
+
+[dependencies]
+eframe = { version = "0.31", default-features = false, features = ["default_fonts", "glow", "x11", "wayland"] }
+libc = "0.2"
+tray-icon = "0.21"
+gtk = "0.18"
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+strip = true
