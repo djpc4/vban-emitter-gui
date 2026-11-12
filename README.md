@@ -7,6 +7,8 @@ It only sends; it doesn't receive or mix.
 
 Made for PipeWire and PulseAudio desktops (tested on Linux Mint 22), sending to Voicemeeter or any other VBAN receiver.
 
+![VBAN Emitter GUI: two streams, the sound device list with live level meters](docs/screenshot.png)
+
 ## What it does
 
 - **Any number of streams.** Each one is a short row: on/off, stream name, destination IP and port, sample rate,
